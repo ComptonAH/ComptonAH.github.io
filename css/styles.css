@@ -1,0 +1,66 @@
+@font-face {
+    font-family: Roboto-Italic;
+    src: url(../fonts/Roboto-Italic.ttf);
+}
+
+html,body {
+    font: Roboto-Italic;
+    width: 100%;
+    overflow-x: hidden;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 22px;
+    background-color: pink;
+}
+
+header img {
+    width: 950px;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+
+header h1{
+    margin-left: 35px;
+}
+
+header nav{
+    font-size: 25px;
+}
+
+Main{
+    margin-left: 35px;
+}
+
+Main img{
+    width: 600px;
+    height: 750px;
+}
+
+Main div img{
+    width: 900px;
+    height: 700px;
+}
+
+.proposal img{
+    width: 600px;
+    height: 730px;
+}
+
+footer{
+    font-size: 35px;
+    margin-left: 35px;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:active{
+    color: blueviolet;
+}
+
+a:focus, a:hover{
+    color: coral;
+}
+
